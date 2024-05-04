@@ -1,3 +1,4 @@
+/* * Header */
 @media only screen and (max-width: 720px) {
     .container {
         /* margin: 0; */
@@ -35,3 +36,27 @@
         left: 150px;
     }
 }
+
+/* * Header END */
+
+
+
+/* Cards */
+@media only screen and (max-width: 1320px) {
+    .card-container {
+        /* display: grid; */
+        grid-template-columns: auto auto;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .card-container {
+        grid-template-columns: auto;
+        margin-left: 100%;
+        margin-top: 100px;
+    }
+}
+
+/* Cards END */
