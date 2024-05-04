@@ -1,0 +1,37 @@
+@media only screen and (max-width: 720px) {
+    .container {
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+    .pinia-title {
+        font-size: 80px;
+    }
+    .header {
+        display: grid;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        /* display: flex;
+        /* justify-content: center; */
+        margin: 0 auto;
+        padding: 0;
+        /* padding-top: 50px; */
+        width: 400px;
+        height: 400px; 
+    }
+    .logo-container {
+        display: flex;
+        order: -1;
+    }
+    .image-bg {
+        margin-left: 130px;
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 150px;
+    }
+}

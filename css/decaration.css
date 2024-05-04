@@ -1,0 +1,8 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient( 15deg, #f7d336 65%, #8ae99c 30% );
+    border-radius: 10px;
+}
+
